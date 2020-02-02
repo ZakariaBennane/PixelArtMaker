@@ -1,0 +1,51 @@
+body {
+  text-align: center;
+  background: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #49a09d,      #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  font-family: Monoton;
+  font-size: 70px;
+  margin: 0.2em;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h2, .Gh, .Gw {
+  margin: 1em 0 0.25em;
+  font-family: Verdana;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+input[type="number"] {
+  width: 6em;
+  color: white;
+  background: #5f2c82;
+  border: 4px solid white;
+}
+#inputWidth {
+  background-color: #49a09d;
+} 
